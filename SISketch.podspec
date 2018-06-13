@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SISketch'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'SISketch.'
 
 # This description is used to generate tags and improve search results.
@@ -28,12 +28,12 @@ SISketch of Super ID.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SISketch/Classes/**/*'
-  s.public_header_files = 'SISketch/Classes/**/*.h'
+  #s.source_files = 'SISketch/Classes/**/*'
+  #s.public_header_files = 'SISketch/Classes/**/*.h'
   
-  # s.resource_bundles = {
-  #   'SISketch' => ['SISketch/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'SISketch' => ['SISketch/Assets/*']
+  }
 
   #   s.subspec 'XX' do |ss|
   #     ss.source_files = 'SISketch/Classes/XX/*'

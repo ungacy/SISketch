@@ -1,0 +1,16 @@
+PODS:
+  - SISketch (0.1.0)
+
+DEPENDENCIES:
+  - SISketch (from `../`)
+
+EXTERNAL SOURCES:
+  SISketch:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SISketch: 32929253f1f95eb94de3377eaddc8f3dd3cebaa1
+
+PODFILE CHECKSUM: 3a1383ab51c6c62b44f97e389873602b378b04ab
+
+COCOAPODS: 1.5.0

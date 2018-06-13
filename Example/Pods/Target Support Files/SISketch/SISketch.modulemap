@@ -1,0 +1,6 @@
+framework module SISketch {
+  umbrella header "SISketch-umbrella.h"
+
+  export *
+  module * { export * }
+}
