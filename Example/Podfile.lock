@@ -1,5 +1,5 @@
 PODS:
-  - SISketch (0.1.0)
+  - SISketch (0.1.1)
 
 DEPENDENCIES:
   - SISketch (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SISketch: 32929253f1f95eb94de3377eaddc8f3dd3cebaa1
+  SISketch: 2673f5233702c22923488fbb27db518f6e4452f8
 
 PODFILE CHECKSUM: 3a1383ab51c6c62b44f97e389873602b378b04ab
 

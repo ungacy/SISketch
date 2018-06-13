@@ -1,6 +1,6 @@
 {
   "name": "SISketch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "SISketch.",
   "description": "SISketch of Super ID.",
   "homepage": "http://superid.cn:81/iOS/SISketch",
@@ -13,11 +13,14 @@
   },
   "source": {
     "git": "git@git.superid.cn:iOS/SISketch.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SISketch/Classes/**/*",
-  "public_header_files": "SISketch/Classes/**/*.h"
+  "resource_bundles": {
+    "SISketch": [
+      "SISketch/Assets/*"
+    ]
+  }
 }

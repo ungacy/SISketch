@@ -7,16 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1532F2C57DA6E2C3713CE18AA1DCE8C7 /* SISketch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B151EB8D8B49ACFF9A0535C06A046EBF /* SISketch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02792C5DDE777296A6E0B08121F6E177 /* Pods-SISketch_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB25F5470B822B9DAAABF9FBDFED5931 /* Pods-SISketch_Example-dummy.m */; };
 		2D8A4EA2657EC2CB83F70E278AF000D6 /* Pods-SISketch_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16A19826412755AE626A2D0742484DA0 /* Pods-SISketch_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32E82310F01D10874C1B73CAF18909C6 /* Pods-SISketch_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB25F5470B822B9DAAABF9FBDFED5931 /* Pods-SISketch_Example-dummy.m */; };
 		443DA548792D82778A0D2C706BBA5BE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		5BC7B0F183EE8A99070B10400907597C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = EA15C7D73469DD19E52EE5DDECD2C185 /* ReplaceMe.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		6F42688CCCDC7F9721802A3CCFC600A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		83CCC4EF5B5D739CC12035AEFE346296 /* SISketch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC16033F4CE8C05FE18B6B05F6CDC9B /* SISketch-dummy.m */; };
-		ABF95645DAA20B158EC2F63B36191371 /* Pods-SISketch_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEF0AD0DB9F38BA6A5756EDC933C6737 /* Pods-SISketch_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D24A135EB614C46A4006EA27739B6123 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AFD0D20990099595404CFCF93A1315C2 /* Pods-SISketch_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEF0AD0DB9F38BA6A5756EDC933C6737 /* Pods-SISketch_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAD587958DDE1F2135D4E9C9C877D40A /* superid-structure.graffle in Resources */ = {isa = PBXBuildFile; fileRef = E6CAD67144FB3912E1E337ED50B249F6 /* superid-structure.graffle */; };
 		D6932DEE5110229DEA1A08B33DD3A821 /* Pods-SISketch_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C42FBF93DAFC1900E70670D5001127 /* Pods-SISketch_Tests-dummy.m */; };
+		E36FE2A91F76B26977B6CD1C66C0D2E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,65 +21,52 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F4EE13F71F46412CBCC5A471F3735981;
+			remoteGlobalIDString = CE5DD66F5246983FF8F6FEF73B7EBC4B;
 			remoteInfo = "Pods-SISketch_Example";
 		};
-		B2093709837B01C2916677D241672097 /* PBXContainerItemProxy */ = {
+		5EA05F558E23F0D80D565D4FF08D04AD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 81011495E313920D303B04F9AFED168F;
-			remoteInfo = SISketch;
+			remoteGlobalIDString = 44BEBE6C72E3119B20777ABBC0F11345;
+			remoteInfo = "SISketch-SISketch";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		021E2FC83C92F48504441BEBC9F32B40 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		06CD06BF4914D709BDE5219D121C2F8F /* SISketch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SISketch.xcconfig; sourceTree = "<group>"; };
+		02F3DF7681FF815724A059B4913600D7 /* ResourceBundle-SISketch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SISketch-Info.plist"; sourceTree = "<group>"; };
 		0A1036AF430710EA96C285CA43458828 /* Pods-SISketch_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SISketch_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0E19D0A5670955A44E7E176E2ECDB2DD /* Pods-SISketch_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SISketch_Example.modulemap"; sourceTree = "<group>"; };
-		100745419DC83F104D792C22B12EB855 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		16A19826412755AE626A2D0742484DA0 /* Pods-SISketch_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SISketch_Tests-umbrella.h"; sourceTree = "<group>"; };
 		1BFEA9B718453320C51867EDCFB5EAB8 /* Pods-SISketch_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SISketch_Example-resources.sh"; sourceTree = "<group>"; };
+		3E7CAE4DEDC6679735F188F5DE1BB27C /* Pods_SISketch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SISketch_Tests.framework; path = "Pods-SISketch_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F512A61A4A1A19003C372C4521B4F30 /* Pods-SISketch_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SISketch_Example-frameworks.sh"; sourceTree = "<group>"; };
 		41A02DFB807B693505E390C1701F589F /* Pods-SISketch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SISketch_Example.release.xcconfig"; sourceTree = "<group>"; };
 		49430760E9A65809AC61C33922DA7FDE /* Pods-SISketch_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SISketch_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4CA65577C63EC710774D9B7724048EDD /* Pods-SISketch_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SISketch_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		509ADBE028D162E4CE8F3CDFB4369CB3 /* Pods-SISketch_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SISketch_Tests.modulemap"; sourceTree = "<group>"; };
-		5EC16033F4CE8C05FE18B6B05F6CDC9B /* SISketch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SISketch-dummy.m"; sourceTree = "<group>"; };
+		617B4D33CEA2CC0E55F5427320AB6509 /* SISketch.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SISketch.bundle; path = "SISketch-SISketch.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C42FBF93DAFC1900E70670D5001127 /* Pods-SISketch_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SISketch_Tests-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		674AFEC21EA901581519D41BDF556B3C /* Pods_SISketch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SISketch_Tests.framework; path = "Pods-SISketch_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		72BC9ED271147D1E1505547F9B3BDABF /* Pods_SISketch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SISketch_Example.framework; path = "Pods-SISketch_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76E5EB7A3010D24B6FD8008B93877179 /* Pods_SISketch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SISketch_Example.framework; path = "Pods-SISketch_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7794CA753E3A5FA551E35E58B0DCE166 /* Pods-SISketch_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SISketch_Tests-resources.sh"; sourceTree = "<group>"; };
-		8429789568C156FC0647F3ECA3880389 /* SISketch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SISketch.modulemap; sourceTree = "<group>"; };
 		859FE4AAC786611171E4E1DDEAA1FDD7 /* Pods-SISketch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SISketch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8EFC1C32569820C44111FD4833C0F514 /* Pods-SISketch_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SISketch_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		91F74075542439A19A139AE362615888 /* SISketch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SISketch-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		993A14503A80A1C7EBFE2DE62C4AA265 /* SISketch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SISketch.framework; path = SISketch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B5A9A1C75C6B3626952A49CDCC40245 /* SISketch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SISketch.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9CBC507C569AFE42A79E12C0792F1045 /* Pods-SISketch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SISketch_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B151EB8D8B49ACFF9A0535C06A046EBF /* SISketch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SISketch-umbrella.h"; sourceTree = "<group>"; };
-		B2A4BA4A8D5057FD7D0C4B3A75AEB679 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC4626C65377CF53AF7450D794784FFE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		CAF238E0450580F0DC06641F6BE9E3E6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB25F5470B822B9DAAABF9FBDFED5931 /* Pods-SISketch_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SISketch_Example-dummy.m"; sourceTree = "<group>"; };
 		CEF0AD0DB9F38BA6A5756EDC933C6737 /* Pods-SISketch_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SISketch_Example-umbrella.h"; sourceTree = "<group>"; };
+		CFAC60F4AFA67149F4CD4691391E89D8 /* SISketch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SISketch.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D5ED4D3CE91CAB29F1349139E6CD1755 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E014D2C65E88CBD9C0959CFD41AD71C9 /* Pods-SISketch_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SISketch_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EA15C7D73469DD19E52EE5DDECD2C185 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = SISketch/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		E6CAD67144FB3912E1E337ED50B249F6 /* superid-structure.graffle */ = {isa = PBXFileReference; includeInIndex = 1; name = "superid-structure.graffle"; path = "SISketch/Assets/superid-structure.graffle"; sourceTree = "<group>"; };
+		EAF1CC77BA2399461988557077116738 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		FD3B6F1A46566C100683913D9DEDACB7 /* Pods-SISketch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SISketch_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0444D3981F9500DED44AD9780D24E7B0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6F42688CCCDC7F9721802A3CCFC600A7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		357BA11610469498315FCC6B6BFB3AF5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -91,11 +75,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D43B7CE9E256E34E7E3C43C01FE1CF48 /* Frameworks */ = {
+		FA0D14537421901E83C44E640BE3D892 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D24A135EB614C46A4006EA27739B6123 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD0773486FA68B5A73EAFBCDB6976657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E36FE2A91F76B26977B6CD1C66C0D2E6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +96,7 @@
 		062905E677F38252275118E1971245C7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D4831F269D6AD4B35212EA630A8FF408 /* SISketch */,
+				A2FA5926582BAC5679A660AF3616B8D2 /* SISketch */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -128,28 +119,22 @@
 			path = "Target Support Files/Pods-SISketch_Tests";
 			sourceTree = "<group>";
 		};
-		49551175F533CE39F296FC1A3B507954 /* Pod */ = {
+		36C357FEFE639E71D385D0C0833ADA7E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				100745419DC83F104D792C22B12EB855 /* LICENSE */,
-				BC4626C65377CF53AF7450D794784FFE /* README.md */,
-				9B5A9A1C75C6B3626952A49CDCC40245 /* SISketch.podspec */,
+				E6CAD67144FB3912E1E337ED50B249F6 /* superid-structure.graffle */,
 			);
-			name = Pod;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		5BA154B98E8C6F5A94952ACA997819A1 /* Support Files */ = {
+		660105A9C73827CAFB15A4CF1DBA2330 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B2A4BA4A8D5057FD7D0C4B3A75AEB679 /* Info.plist */,
-				8429789568C156FC0647F3ECA3880389 /* SISketch.modulemap */,
-				06CD06BF4914D709BDE5219D121C2F8F /* SISketch.xcconfig */,
-				5EC16033F4CE8C05FE18B6B05F6CDC9B /* SISketch-dummy.m */,
-				91F74075542439A19A139AE362615888 /* SISketch-prefix.pch */,
-				B151EB8D8B49ACFF9A0535C06A046EBF /* SISketch-umbrella.h */,
+				EAF1CC77BA2399461988557077116738 /* LICENSE */,
+				D5ED4D3CE91CAB29F1349139E6CD1755 /* README.md */,
+				CFAC60F4AFA67149F4CD4691391E89D8 /* SISketch.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SISketch";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		76F5AF9DDBA812036F94BFE5A2ED0427 /* Targets Support Files */ = {
@@ -167,7 +152,7 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				062905E677F38252275118E1971245C7 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				91A98DA5B882C9BEDA6E86E1E48F3D9F /* Products */,
+				F47AE7C541ABF4435F38B6A909E32677 /* Products */,
 				76F5AF9DDBA812036F94BFE5A2ED0427 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -190,14 +175,15 @@
 			path = "Target Support Files/Pods-SISketch_Example";
 			sourceTree = "<group>";
 		};
-		91A98DA5B882C9BEDA6E86E1E48F3D9F /* Products */ = {
+		A2FA5926582BAC5679A660AF3616B8D2 /* SISketch */ = {
 			isa = PBXGroup;
 			children = (
-				72BC9ED271147D1E1505547F9B3BDABF /* Pods_SISketch_Example.framework */,
-				674AFEC21EA901581519D41BDF556B3C /* Pods_SISketch_Tests.framework */,
-				993A14503A80A1C7EBFE2DE62C4AA265 /* SISketch.framework */,
+				660105A9C73827CAFB15A4CF1DBA2330 /* Pod */,
+				36C357FEFE639E71D385D0C0833ADA7E /* Resources */,
+				D6A191C59D8AF762EAF21264B0DCEA06 /* Support Files */,
 			);
-			name = Products;
+			name = SISketch;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -216,15 +202,23 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D4831F269D6AD4B35212EA630A8FF408 /* SISketch */ = {
+		D6A191C59D8AF762EAF21264B0DCEA06 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EA15C7D73469DD19E52EE5DDECD2C185 /* ReplaceMe.m */,
-				49551175F533CE39F296FC1A3B507954 /* Pod */,
-				5BA154B98E8C6F5A94952ACA997819A1 /* Support Files */,
+				02F3DF7681FF815724A059B4913600D7 /* ResourceBundle-SISketch-Info.plist */,
 			);
-			name = SISketch;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SISketch";
+			sourceTree = "<group>";
+		};
+		F47AE7C541ABF4435F38B6A909E32677 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76E5EB7A3010D24B6FD8008B93877179 /* Pods_SISketch_Example.framework */,
+				3E7CAE4DEDC6679735F188F5DE1BB27C /* Pods_SISketch_Tests.framework */,
+				617B4D33CEA2CC0E55F5427320AB6509 /* SISketch.bundle */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,58 +232,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58E4121A5A2DF84195948B6727FD6E88 /* Headers */ = {
+		C064212013465BDA848B781AAC4253B6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABF95645DAA20B158EC2F63B36191371 /* Pods-SISketch_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF58639067DB9271F505881A2313C7D1 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1532F2C57DA6E2C3713CE18AA1DCE8C7 /* SISketch-umbrella.h in Headers */,
+				AFD0D20990099595404CFCF93A1315C2 /* Pods-SISketch_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		81011495E313920D303B04F9AFED168F /* SISketch */ = {
+		44BEBE6C72E3119B20777ABBC0F11345 /* SISketch-SISketch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC6D75E5DC3CFA400F5A010DDF8E1C51 /* Build configuration list for PBXNativeTarget "SISketch" */;
+			buildConfigurationList = 4D589DF6C36F41A3F65690C5DDD1C595 /* Build configuration list for PBXNativeTarget "SISketch-SISketch" */;
 			buildPhases = (
-				07222FE6225C406AB9E577939D8EBDEA /* Sources */,
-				0444D3981F9500DED44AD9780D24E7B0 /* Frameworks */,
-				BF58639067DB9271F505881A2313C7D1 /* Headers */,
+				395791F3510BDDE365CEA4A391CB1582 /* Sources */,
+				FA0D14537421901E83C44E640BE3D892 /* Frameworks */,
+				09970A6613E0CD1013BF5F86A727EDDE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SISketch;
-			productName = SISketch;
-			productReference = 993A14503A80A1C7EBFE2DE62C4AA265 /* SISketch.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "SISketch-SISketch";
+			productName = "SISketch-SISketch";
+			productReference = 617B4D33CEA2CC0E55F5427320AB6509 /* SISketch.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
-		F4EE13F71F46412CBCC5A471F3735981 /* Pods-SISketch_Example */ = {
+		CE5DD66F5246983FF8F6FEF73B7EBC4B /* Pods-SISketch_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B8AA528606506BE94C834179C16866B6 /* Build configuration list for PBXNativeTarget "Pods-SISketch_Example" */;
+			buildConfigurationList = 786ED9AF67D1A4C42D89B1F030482D86 /* Build configuration list for PBXNativeTarget "Pods-SISketch_Example" */;
 			buildPhases = (
-				5F68EE3ABA6F8D3FD52EEEE2FCC56227 /* Sources */,
-				D43B7CE9E256E34E7E3C43C01FE1CF48 /* Frameworks */,
-				58E4121A5A2DF84195948B6727FD6E88 /* Headers */,
+				B0F2126D67B2332B56BE787A220086EB /* Sources */,
+				FD0773486FA68B5A73EAFBCDB6976657 /* Frameworks */,
+				C064212013465BDA848B781AAC4253B6 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0A7D16E76069539D21AE72B0DE6443EB /* PBXTargetDependency */,
+				CFE64A508174464A6BA31ACCCB4D44E1 /* PBXTargetDependency */,
 			);
 			name = "Pods-SISketch_Example";
 			productName = "Pods-SISketch_Example";
-			productReference = 72BC9ED271147D1E1505547F9B3BDABF /* Pods_SISketch_Example.framework */;
+			productReference = 76E5EB7A3010D24B6FD8008B93877179 /* Pods_SISketch_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FAF60BB7478CFC09042B3C5AE3652373 /* Pods-SISketch_Tests */ = {
@@ -307,7 +293,7 @@
 			);
 			name = "Pods-SISketch_Tests";
 			productName = "Pods-SISketch_Tests";
-			productReference = 674AFEC21EA901581519D41BDF556B3C /* Pods_SISketch_Tests.framework */;
+			productReference = 3E7CAE4DEDC6679735F188F5DE1BB27C /* Pods_SISketch_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -327,24 +313,33 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 91A98DA5B882C9BEDA6E86E1E48F3D9F /* Products */;
+			productRefGroup = F47AE7C541ABF4435F38B6A909E32677 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F4EE13F71F46412CBCC5A471F3735981 /* Pods-SISketch_Example */,
+				CE5DD66F5246983FF8F6FEF73B7EBC4B /* Pods-SISketch_Example */,
 				FAF60BB7478CFC09042B3C5AE3652373 /* Pods-SISketch_Tests */,
-				81011495E313920D303B04F9AFED168F /* SISketch */,
+				44BEBE6C72E3119B20777ABBC0F11345 /* SISketch-SISketch */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		09970A6613E0CD1013BF5F86A727EDDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD587958DDE1F2135D4E9C9C877D40A /* superid-structure.graffle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		07222FE6225C406AB9E577939D8EBDEA /* Sources */ = {
+		395791F3510BDDE365CEA4A391CB1582 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BC7B0F183EE8A99070B10400907597C /* ReplaceMe.m in Sources */,
-				83CCC4EF5B5D739CC12035AEFE346296 /* SISketch-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,90 +351,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F68EE3ABA6F8D3FD52EEEE2FCC56227 /* Sources */ = {
+		B0F2126D67B2332B56BE787A220086EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32E82310F01D10874C1B73CAF18909C6 /* Pods-SISketch_Example-dummy.m in Sources */,
+				02792C5DDE777296A6E0B08121F6E177 /* Pods-SISketch_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0A7D16E76069539D21AE72B0DE6443EB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SISketch;
-			target = 81011495E313920D303B04F9AFED168F /* SISketch */;
-			targetProxy = B2093709837B01C2916677D241672097 /* PBXContainerItemProxy */;
-		};
 		30B8F52974B73898966D7B4A64D1E851 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SISketch_Example";
-			target = F4EE13F71F46412CBCC5A471F3735981 /* Pods-SISketch_Example */;
+			target = CE5DD66F5246983FF8F6FEF73B7EBC4B /* Pods-SISketch_Example */;
 			targetProxy = 1518DC537E35B9A72987BF284D585345 /* PBXContainerItemProxy */;
+		};
+		CFE64A508174464A6BA31ACCCB4D44E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SISketch-SISketch";
+			target = 44BEBE6C72E3119B20777ABBC0F11345 /* SISketch-SISketch */;
+			targetProxy = 5EA05F558E23F0D80D565D4FF08D04AD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		08F98A2AFFE0DB9DD25937549CFC9753 /* Release */ = {
+		567B8226CFE45100BFD73CFE9F00E485 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06CD06BF4914D709BDE5219D121C2F8F /* SISketch.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SISketch/SISketch-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SISketch/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SISketch";
+				INFOPLIST_FILE = "Target Support Files/SISketch/ResourceBundle-SISketch-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SISketch/SISketch.modulemap";
-				PRODUCT_MODULE_NAME = SISketch;
 				PRODUCT_NAME = SISketch;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		319EFB1DDFFE94F61A9EFE82EA5277E3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06CD06BF4914D709BDE5219D121C2F8F /* SISketch.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SISketch/SISketch-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SISketch/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SISketch/SISketch.modulemap";
-				PRODUCT_MODULE_NAME = SISketch;
-				PRODUCT_NAME = SISketch;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -476,7 +425,22 @@
 			};
 			name = Debug;
 		};
-		82DDF2E00D90B9E97591AF4B19377C54 /* Release */ = {
+		77C9A37EFEFD37DC86CA2E71BD1EACC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SISketch";
+				INFOPLIST_FILE = "Target Support Files/SISketch/ResourceBundle-SISketch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SISketch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		85299274C9B9B247257BF766C863C358 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 41A02DFB807B693505E390C1701F589F /* Pods-SISketch_Example.release.xcconfig */;
 			buildSettings = {
@@ -665,7 +629,7 @@
 			};
 			name = Release;
 		};
-		FA6A8A2DD550C11981446B7C77802B3D /* Debug */ = {
+		DE5F97F2A0EE2C19851CE55B3E17AB45 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9CBC507C569AFE42A79E12C0792F1045 /* Pods-SISketch_Example.debug.xcconfig */;
 			buildSettings = {
@@ -719,20 +683,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC6D75E5DC3CFA400F5A010DDF8E1C51 /* Build configuration list for PBXNativeTarget "SISketch" */ = {
+		4D589DF6C36F41A3F65690C5DDD1C595 /* Build configuration list for PBXNativeTarget "SISketch-SISketch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				319EFB1DDFFE94F61A9EFE82EA5277E3 /* Debug */,
-				08F98A2AFFE0DB9DD25937549CFC9753 /* Release */,
+				567B8226CFE45100BFD73CFE9F00E485 /* Debug */,
+				77C9A37EFEFD37DC86CA2E71BD1EACC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B8AA528606506BE94C834179C16866B6 /* Build configuration list for PBXNativeTarget "Pods-SISketch_Example" */ = {
+		786ED9AF67D1A4C42D89B1F030482D86 /* Build configuration list for PBXNativeTarget "Pods-SISketch_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA6A8A2DD550C11981446B7C77802B3D /* Debug */,
-				82DDF2E00D90B9E97591AF4B19377C54 /* Release */,
+				DE5F97F2A0EE2C19851CE55B3E17AB45 /* Debug */,
+				85299274C9B9B247257BF766C863C358 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
