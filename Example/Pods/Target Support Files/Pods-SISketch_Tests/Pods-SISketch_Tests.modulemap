@@ -1,6 +1,0 @@
-framework module Pods_SISketch_Tests {
-  umbrella header "Pods-SISketch_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
